@@ -1,0 +1,14 @@
+name: "main"
+scale_along_z: 0
+embedded_instances {
+  id: "game"
+  data: "components {\n"
+  "  id: \"gui\"\n"
+  "  component: \"/main/assets/gui/gui.gui\"\n"
+  "}\n"
+  "components {\n"
+  "  id: \"game\"\n"
+  "  component: \"/main/assets/scripts/game.script\"\n"
+  "}\n"
+  ""
+}

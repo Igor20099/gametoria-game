@@ -1,0 +1,30 @@
+function init(self)
+	local game_questions_json = sys.load_resource("/main/assets/game_answers.json")
+	self.game_questions = json.decode(game_questions_json)
+	pprint(self.game_questions)
+	self.current_question = 1
+	msg.post('#gui', 'new_question',{question = self.game_questions[self.current_question], number_question = self.current_question})
+end
+
+
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash('next_question') then
+
+		self.current_question = self.current_question + 1
+		msg.post('#gui', 'new_question',{question = self.game_questions[self.current_question], number_question = self.current_question})
+	end
+end
+
+function on_input(self, action_id, action)
+	-- Add input-handling code here. The game object this script is attached to
+	-- must have acquired input focus:
+	--
+	--    msg.post(".", "acquire_input_focus")
+	--
+	-- All mapped input bindings will be received. Mouse and touch input will
+	-- be received regardless of where on the screen it happened.
+	-- Learn more: https://defold.com/manuals/input/
+	-- Remove this function if not needed
+end
+
