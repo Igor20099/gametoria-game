@@ -1244,5 +1244,120 @@
     "question": "Какой из следующих персонажей является главным героем игры 'Assassin's Creed IV: Black Flag'?",
     "options": ["Эдвард Кенуэй", "Альтаир", "Эдит Уитт", "Кони"],
     "correct_answer": "Эдвард Кенуэй"
+  },
+  {
+    "question": "Какой персонаж является героем игры 'Portal'?",
+    "options": ["Chell", "GLaDOS", "Wheatley", "Aperture"],
+    "correct_answer": "Chell"
+  },
+  {
+    "question": "Какой боевой жанр игры 'Street Fighter'?",
+    "options": ["Файтинги", "РПГ", "Симуляторы", "Стратегии"],
+    "correct_answer": "Файтинги"
+  },
+  {
+    "question": "Какой цвет использует главный герой игры 'Undertale' для своего сердечка?",
+    "options": ["Красный", "Синий", "Зеленый", "Желтый"],
+    "correct_answer": "Красный"
+  },
+  {
+    "question": "Какой артефакт в 'The Legend of Zelda' дает возможность летать?",
+    "options": ["Грифон", "Летающий ботинок", "Параглайдер", "Летающий меч"],
+    "correct_answer": "Параглайдер"
+  },
+  {
+    "question": "Какой инди-игра включает в себя 'endless runner' механику и платформенные элементы?",
+    "options": ["Celeste", "Hollow Knight", "Super Meat Boy", "Jump King"],
+    "correct_answer": "Super Meat Boy"
+  },
+  {
+    "question": "Кто является главным антагонистом в 'Bioshock'?",
+    "options": ["Andrew Ryan", "Comstock", "Atlas", "Big Daddy"],
+    "correct_answer": "Andrew Ryan"
+  },
+  {
+    "question": "Какой персонаж из 'Halo' является известным воином из Спартанской программы?",
+    "options": ["Cortana", "Master Chief", "Dr. Halsey", "343 Guilty Spark"],
+    "correct_answer": "Master Chief"
+  },
+  {
+    "question": "В какой игре игроки могут управлять одним из 36 уникальных героев?",
+    "options": ["Overwatch", "League of Legends", "Dota 2", "Team Fortress 2"],
+    "correct_answer": "Overwatch"
+  },
+  {
+    "question": "Какой элемент в 'Minecraft' используется для создания портала в Нижний мир?",
+    "options": ["Алмаз", "Золото", "Обсидиан", "Железо"],
+    "correct_answer": "Обсидиан"
+  },
+  {
+    "question": "Какой игровой мир стал знаменит благодаря своим 'криптовалютам' в 'Dota 2'?",
+    "options": ["Rift", "Runeterra", "Norrath", "Azeroth"],
+    "correct_answer": "Azeroth"
+  },
+  {
+    "question": "Какой заголовок является частью серии 'Final Fantasy'?",
+    "options": ["Persona", "Xenogears", "Chrono Trigger", "Final Fantasy VII"],
+    "correct_answer": "Final Fantasy VII"
+  },
+  {
+    "question": "Какой персонаж является логотипом компании 'Sega'?",
+    "options": ["Mario", "Crash Bandicoot", "Sonic the Hedgehog", "Pikachu"],
+    "correct_answer": "Sonic the Hedgehog"
+  },
+  {
+    "question": "В какой игре игроки управляют одним из 100 персонажей на боевой арене?",
+    "options": ["Apex Legends", "Fortnite", "Call of Duty", "PUBG"],
+    "correct_answer": "Fortnite"
+  },
+  {
+    "question": "Какой элемент используется для создания 'доспехов' в 'Dark Souls'?",
+    "options": ["Кожаные куски", "Ткань", "Металл", "Камень"],
+    "correct_answer": "Металл"
+  },
+  {
+    "question": "Какой элемент игрового процесса является характерным для серии 'Assassin's Creed'?",
+    "options": ["Паркур", "Стратегия", "Гонки", "Тайм-тревел"],
+    "correct_answer": "Паркур"
+  },
+  {
+    "question": "Какой известный главный герой является пиратом в игре 'Sea of Thieves'?",
+    "options": [
+      "Jack Sparrow",
+      "Captain Morgan",
+      "William Turner",
+      "Капитан Мёртвая голова"
+    ],
+    "correct_answer": "Капитан Мёртвая голова"
+  },
+  {
+    "question": "Какой инструмент используется для навигации в игре 'The Witcher 3'?",
+    "options": ["Картография", "Чувство эльфов", "Словарь", "Корабль"],
+    "correct_answer": "Картография"
+  },
+  {
+    "question": "Какой элемент управления характерен для 'Guitar Hero'?",
+    "options": ["Клавиатура", "Гитара", "Джойстик", "Мышь"],
+    "correct_answer": "Гитара"
+  },
+  {
+    "question": "Какой известный игровой заголовок включает в себя персонажа по имени 'Samus Aran'?",
+    "options": ["Metroid", "Zelda", "Halo", "Final Fantasy"],
+    "correct_answer": "Metroid"
+  },
+  {
+    "question": "Какой элемент является основной механикой в игре 'Braid'?",
+    "options": ["Прыжки", "Временные манипуляции", "Сбор предметов", "Бой"],
+    "correct_answer": "Временные манипуляции"
+  },
+  {
+    "question": "Какой жанр игры 'Animal Crossing'?",
+    "options": ["Симулятор жизни", "Приключенческая игра", "Стратегия", "Экшн"],
+    "correct_answer": "Симулятор жизни"
+  },
+  {
+    "question": "Какой персонаж является боксером в игре 'Street Fighter'?",
+    "options": ["Ryu", "Chun-Li", "Balrog", "Guile"],
+    "correct_answer": "Balrog"
   }
 ]

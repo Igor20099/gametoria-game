@@ -1,6 +1,19 @@
+math.randomseed(os.time())
+
+local function shuffle_table(t)
+	local n = #t
+	for i = n, 2, -1 do
+		-- Генерируем случайный индекс от 1 до i
+		local j = math.random(i)
+		-- Меняем местами элементы
+		t[i], t[j] = t[j], t[i]
+	end
+end
+
 function init(self)
 	local game_questions_json = sys.load_resource("/main/assets/game_answers.json")
 	self.game_questions = json.decode(game_questions_json)
+	shuffle_table(self.game_questions)
 	pprint(self.game_questions)
 	self.current_question = 1
 	msg.post('#gui', 'new_question',{question = self.game_questions[self.current_question], number_question = self.current_question})

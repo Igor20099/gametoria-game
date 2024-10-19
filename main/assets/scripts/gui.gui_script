@@ -1,3 +1,16 @@
+math.randomseed(os.time())
+
+local function shuffle_table(t)
+	local n = #t
+	for i = n, 2, -1 do
+		-- Генерируем случайный индекс от 1 до i
+		local j = math.random(i)
+		-- Меняем местами элементы
+		t[i], t[j] = t[j], t[i]
+	end
+end
+
+
 function init(self)
 	self.correct_answer = nil
 	msg.post(".", "acquire_input_focus")
@@ -23,12 +36,14 @@ end
 
 function on_message(self, message_id, message, sender)
 	if message_id == hash('new_question') then
+		local answers = message.question.options
+		shuffle_table(answers)
 		gui.set_text(gui.get_node('number_question'), 'Вопрос '..message.number_question)
 		gui.set_text(gui.get_node('question'), message.question.question)
-		gui.set_text(gui.get_node('answer_text_1'), message.question.options[1])
-		gui.set_text(gui.get_node('answer_text_2'),  message.question.options[2])
-		gui.set_text(gui.get_node('answer_text_3'),  message.question.options[3])
-		gui.set_text(gui.get_node('answer_text_4'),  message.question.options[4])
+		gui.set_text(gui.get_node('answer_text_1'), answers[1])
+		gui.set_text(gui.get_node('answer_text_2'),  answers[2])
+		gui.set_text(gui.get_node('answer_text_3'),  answers[3])
+		gui.set_text(gui.get_node('answer_text_4'),  answers[4])
 		self.correct_answer = message.question.correct_answer
 		print(self.correct_answer)
 		
