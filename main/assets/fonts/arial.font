@@ -1,5 +1,6 @@
-font: "/main/assets/fonts/ARIAL.TTF"
+font: "/main/assets/fonts/Moderustic-Regular.ttf"
 material: "/builtins/fonts/font.material"
 size: 24
+shadow_blur: 0
 all_chars: true
 characters: " !\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"

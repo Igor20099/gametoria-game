@@ -1,0 +1,7 @@
+images {
+  image: "/main/assets/sprites/button_rectangle_depth_gradient.png"
+}
+images {
+  image: "/main/assets/sprites/button_square_flat.png"
+}
+extrude_borders: 3

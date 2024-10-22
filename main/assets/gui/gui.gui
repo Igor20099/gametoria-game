@@ -7,6 +7,10 @@ fonts {
   name: "arial_title"
   font: "/main/assets/fonts/arial_title.font"
 }
+textures {
+  name: "atlas"
+  texture: "/main/assets/atlas.atlas"
+}
 nodes {
   position {
     x: 222.0
@@ -27,11 +31,11 @@ nodes {
 nodes {
   position {
     x: 214.0
-    y: 553.0
+    y: 490.0
   }
   size {
     x: 420.0
-    y: 50.0
+    y: 64.0
   }
   color {
     x: 0.302
@@ -39,9 +43,9 @@ nodes {
     z: 0.8
   }
   type: TYPE_BOX
+  texture: "atlas/button_rectangle_depth_gradient"
   id: "answer_1"
   inherit_alpha: true
-  size_mode: SIZE_MODE_AUTO
 }
 nodes {
   size {
@@ -58,11 +62,11 @@ nodes {
 nodes {
   position {
     x: 214.0
-    y: 473.0
+    y: 410.0
   }
   size {
     x: 420.0
-    y: 50.0
+    y: 64.0
   }
   color {
     x: 0.302
@@ -70,9 +74,9 @@ nodes {
     z: 0.8
   }
   type: TYPE_BOX
+  texture: "atlas/button_rectangle_depth_gradient"
   id: "answer_2"
   inherit_alpha: true
-  size_mode: SIZE_MODE_AUTO
 }
 nodes {
   size {
@@ -89,11 +93,11 @@ nodes {
 nodes {
   position {
     x: 214.0
-    y: 393.0
+    y: 330.0
   }
   size {
     x: 420.0
-    y: 50.0
+    y: 64.0
   }
   color {
     x: 0.302
@@ -101,9 +105,9 @@ nodes {
     z: 0.8
   }
   type: TYPE_BOX
+  texture: "atlas/button_rectangle_depth_gradient"
   id: "answer_3"
   inherit_alpha: true
-  size_mode: SIZE_MODE_AUTO
 }
 nodes {
   size {
@@ -120,7 +124,7 @@ nodes {
 nodes {
   position {
     x: 214.0
-    y: 313.0
+    y: 250.0
   }
   size {
     x: 420.0
@@ -132,9 +136,9 @@ nodes {
     z: 0.8
   }
   type: TYPE_BOX
+  texture: "atlas/button_rectangle_depth_gradient"
   id: "asnwer_4"
   inherit_alpha: true
-  size_mode: SIZE_MODE_AUTO
 }
 nodes {
   size {
@@ -166,7 +170,7 @@ nodes {
 nodes {
   position {
     x: 223.0
-    y: 749.0
+    y: 767.0
   }
   size {
     x: 200.0
