@@ -10,5 +10,9 @@ embedded_instances {
   "  id: \"game\"\n"
   "  component: \"/main/assets/scripts/game.script\"\n"
   "}\n"
+  "components {\n"
+  "  id: \"end_game\"\n"
+  "  component: \"/main/assets/gui/end_game.gui\"\n"
+  "}\n"
   ""
 }

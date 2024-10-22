@@ -1,0 +1,24 @@
+name: "proxy"
+scale_along_z: 0
+embedded_instances {
+  id: "scene_manager"
+  data: "components {\n"
+  "  id: \"scene_manager\"\n"
+  "  component: \"/main/assets/scripts/scene_manager.script\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"collectionproxy\"\n"
+  "  type: \"collectionproxy\"\n"
+  "  data: \"collection: \\\"/main/main.collection\\\"\\n"
+  "\"\n"
+  "}\n"
+  ""
+}
+embedded_instances {
+  id: "ya_games"
+  data: "components {\n"
+  "  id: \"ya_games\"\n"
+  "  component: \"/main/assets/scripts/yandex/ya_games.script\"\n"
+  "}\n"
+  ""
+}

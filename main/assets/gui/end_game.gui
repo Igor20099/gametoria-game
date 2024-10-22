@@ -1,0 +1,99 @@
+script: "/main/assets/scripts/end_game.gui_script"
+fonts {
+  name: "arial"
+  font: "/main/assets/fonts/arial.font"
+}
+fonts {
+  name: "arial_title"
+  font: "/main/assets/fonts/arial_title.font"
+}
+nodes {
+  position {
+    x: 536.0
+    y: 328.0
+  }
+  scale {
+    x: 1.65474
+    y: 4.535061
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  color {
+    x: 0.2
+    y: 0.302
+    z: 0.702
+  }
+  type: TYPE_BOX
+  id: "box"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  position {
+    x: 471.0
+    y: 505.0
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\236\321\207\320\272\320\270: 50000\n"
+  "\n"
+  ""
+  font: "arial_title"
+  id: "scores"
+  inherit_alpha: true
+}
+nodes {
+  position {
+    x: 489.0
+    y: 441.0
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\240\320\265\320\272\320\276\321\200\320\264: 50000\n"
+  ""
+  font: "arial_title"
+  id: "record"
+  inherit_alpha: true
+}
+nodes {
+  position {
+    x: 538.0
+    y: 239.0
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  color {
+    x: 0.302
+    y: 0.2
+    z: 0.6
+  }
+  type: TYPE_BOX
+  id: "restart_btn"
+  inherit_alpha: true
+  size_mode: SIZE_MODE_AUTO
+}
+nodes {
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\237\320\265\321\200\320\265\320\270\320\263\321\200\320\260\321\202\321\214\n"
+  ""
+  font: "arial"
+  id: "text"
+  parent: "restart_btn"
+  inherit_alpha: true
+}
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_PARENT
