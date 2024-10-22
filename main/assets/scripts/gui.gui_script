@@ -36,6 +36,9 @@ end
 
 function on_message(self, message_id, message, sender)
 	if message_id == hash('new_question') then
+		if message.number_question % 10 == 0 then
+			msg.post('proxy:/ya_games#ya_games', "show_fullscreen_adv")
+		end
 		local answers = message.question.options
 		shuffle_table(answers)
 		gui.set_text(gui.get_node('number_question'), 'Вопрос '..message.number_question)
@@ -59,11 +62,13 @@ function on_input(self, action_id, action)
 				msg.post('/game#game', 'next_question')
 				self.scores = self.scores + 100
 				gui.set_text(gui.get_node('scores'), 'Очки: '..self.scores)
+				sound.play('#accept')
 			else
+				msg.post('/game#end_game', 'show_scores',{scores = self.scores})
 				msg.post('/game#end_game', 'enable')
 				msg.post('#', 'disable')
+				sound.play('#lose')
 			end
-			print('1')
 		elseif gui.pick_node(self.answer_2, action.x, action.y) then
 			local answer = gui.get_text(self.answer_2)
 			if answer == self.correct_answer then
@@ -71,11 +76,13 @@ function on_input(self, action_id, action)
 				msg.post('/game#game', 'next_question')
 				self.scores = self.scores + 100
 				gui.set_text(gui.get_node('scores'), 'Очки: '..self.scores)
+				sound.play('#accept')
 			else
+				msg.post('/game#end_game', 'show_scores',{scores = self.scores})
 				msg.post('/game#end_game', 'enable')
 				msg.post('#', 'disable')
+				sound.play('#lose')
 			end
-			print('2')
 		elseif gui.pick_node(self.answer_3, action.x, action.y) then
 			local answer = gui.get_text(self.answer_3)
 			if answer == self.correct_answer then
@@ -83,11 +90,13 @@ function on_input(self, action_id, action)
 				msg.post('/game#game', 'next_question')
 				self.scores = self.scores + 100
 				gui.set_text(gui.get_node('scores'), 'Очки: '..self.scores)
+				sound.play('#accept')
 			else
+				msg.post('/game#end_game', 'show_scores',{scores = self.scores})
 				msg.post('/game#end_game', 'enable')
 				msg.post('#', 'disable')
+				sound.play('#lose')
 			end
-			print('3')
 		elseif gui.pick_node(self.answer_4, action.x, action.y) then
 			local answer = gui.get_text(self.answer_4)
 			if answer == self.correct_answer then
@@ -95,11 +104,13 @@ function on_input(self, action_id, action)
 				msg.post('/game#game', 'next_question')
 				self.scores = self.scores + 100
 				gui.set_text(gui.get_node('scores'), 'Очки: '..self.scores)
+				sound.play('#accept')
 			else
+				msg.post('/game#end_game', 'show_scores',{scores = self.scores})
 				msg.post('/game#end_game', 'enable')
 				msg.post('#', 'disable')
+				sound.play('#lose')
 			end
-			print('4')
 		end
 	end
 end
