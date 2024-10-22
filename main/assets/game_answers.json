@@ -31,8 +31,8 @@
   },
   {
     "question": "Какое оружие использует персонаж Лара Крофт в игре 'Tomb Raider'?",
-    "options": ["Лук и стрелы", "Дробовик", "Двойные пистолеты", "Меч"],
-    "correct_answer": "Двойные пистолеты"
+    "options": ["Лук и стрелы", "Дробовик", "Парные пистолеты", "Меч"],
+    "correct_answer": "Парные пистолеты"
   },
   {
     "question": "Как называется вымышленный город в игре 'Grand Theft Auto: San Andreas'?",
@@ -75,7 +75,7 @@
     "correct_answer": "Destiny"
   },
   {
-    "question": "Кто является главным антагонистом в серии игр 'Far Cry 3'?",
+    "question": "Кто является главным антагонистом в игре 'Far Cry 3'?",
     "options": ["Ваас Монтенегро", "Паган Мин", "Джозеф Сид", "Сабал"],
     "correct_answer": "Ваас Монтенегро"
   },
@@ -83,26 +83,6 @@
     "question": "Как зовут главного героя в игре 'The Last of Us'?",
     "options": ["Джоэл", "Элли", "Томми", "Тесс"],
     "correct_answer": "Джоэл"
-  },
-  {
-    "question": "Какая игра известна своим режимом 'Королевская битва'?",
-    "options": ["Fortnite", "Call of Duty", "Overwatch", "League of Legends"],
-    "correct_answer": "Fortnite"
-  },
-  {
-    "question": "В какой игре используется персонаж по имени Сапфир в качестве главного босса?",
-    "options": ["Final Fantasy", "Dark Souls", "Sekiro", "Demon's Souls"],
-    "correct_answer": "Dark Souls"
-  },
-  {
-    "question": "Как называется мир в игре 'Minecraft'?",
-    "options": ["Оверворлд", "Нижний мир", "Край", "Астрал"],
-    "correct_answer": "Оверворлд"
-  },
-  {
-    "question": "Как называется вымышленная вселенная в серии игр 'Mass Effect'?",
-    "options": ["Цитадель", "Галактика Андромеды", "Млечный путь", "Нексус"],
-    "correct_answer": "Млечный путь"
   },
   {
     "question": "Кто является главным антагонистом в игре 'BioShock Infinite'?",
@@ -161,11 +141,6 @@
     "correct_answer": "Рук-Айленд"
   },
   {
-    "question": "Как называется робот-компаньон в игре 'Portal 2'?",
-    "options": ["Уитли", "ГЛаДОС", "Челл", "АТЛАС"],
-    "correct_answer": "Уитли"
-  },
-  {
     "question": "Какая игра является духовным наследником серии игр 'System Shock'?",
     "options": ["BioShock", "Deus Ex", "Dishonored", "Prey"],
     "correct_answer": "BioShock"
@@ -191,14 +166,9 @@
     "correct_answer": "Wolfenstein 3D"
   },
   {
-    "question": "Как называется серия игр, в которой присутствует персонаж Крэйтос?",
+    "question": "Как называется серия игр, в которой присутствует персонаж Кратос?",
     "options": ["God of War", "Devil May Cry", "Darksiders", "Bayonetta"],
     "correct_answer": "God of War"
-  },
-  {
-    "question": "Как зовут злодея в игре 'The Legend of Zelda: Ocarina of Time'?",
-    "options": ["Ганондорф", "Занта", "Мидна", "Вати"],
-    "correct_answer": "Ганондорф"
   },
   {
     "question": "Как называется знаменитая локация в игре 'World of Warcraft', где находится Черная Гора?",
@@ -226,7 +196,7 @@
     "correct_answer": "CD Projekt Red"
   },
   {
-    "question": "Какой антагонист противостоит главному герою в серии игр 'Assassin's Creed'?",
+    "question": "Кто противостоит главному герою в серии игр 'Assassin's Creed'?",
     "options": [
       "Тамплиеры",
       "Братство теней",
@@ -244,16 +214,6 @@
     "question": "Какая игра изначально называлась 'Project Titan' перед тем, как стать популярной многопользовательской игрой?",
     "options": ["Overwatch", "Apex Legends", "Fortnite", "Valorant"],
     "correct_answer": "Overwatch"
-  },
-  {
-    "question": "Какая серия игр известна своим режимом выживания на космическом корабле?",
-    "options": [
-      "Dead Space",
-      "Mass Effect",
-      "No Man's Sky",
-      "Alien: Isolation"
-    ],
-    "correct_answer": "Dead Space"
   },
   {
     "question": "Как называется игра, в которой игрок управляет маленьким мальчиком в черно-белом мире, избегая ловушек?",
@@ -296,44 +256,24 @@
     "correct_answer": "Данте"
   },
   {
-    "question": "Как называется искусственный интеллект, против которого сражается мастер Чиф в серии игр 'Halo'?",
-    "options": ["Кортана", "343 Гилти Спарк", "Мендичант Бисер", "Гравеминд"],
-    "correct_answer": "343 Гилти Спарк"
-  },
-  {
     "question": "Как называется студия, которая разработала игру 'Red Dead Redemption 2'?",
     "options": ["Rockstar Games", "Ubisoft", "EA Games", "CD Projekt Red"],
     "correct_answer": "Rockstar Games"
   },
   {
-    "question": "Какая игра ввела концепцию 'Текущего времени' для воздействия на игровой процесс?",
-    "options": [
-      "The Legend of Zelda: Majora's Mask",
-      "The Elder Scrolls III: Morrowind",
-      "Dark Souls",
-      "Half-Life"
-    ],
-    "correct_answer": "The Legend of Zelda: Majora's Mask"
-  },
-  {
-    "question": "Какая игра является примером жанра 'souls-like'?",
+    "question": "Какая игра является соуслайком?",
     "options": [
       "Dark Souls",
       "Hollow Knight",
       "Bloodborne",
-      "Все вышеперечисленное"
+      "Все перечисленные"
     ],
-    "correct_answer": "Все вышеперечисленное"
+    "correct_answer": "Все перечисленные"
   },
   {
     "question": "Как называется игра, где игрок управляет ведьмой, сражающейся против ангелов и демонов?",
     "options": ["Bayonetta", "Devil May Cry", "Nioh", "DarkSiders"],
     "correct_answer": "Bayonetta"
-  },
-  {
-    "question": "Какой персонаж из игры 'League of Legends' известен своей способностью прыгать и кидать копья?",
-    "options": ["Нидали", "Ли Син", "Экко", "Джакс"],
-    "correct_answer": "Нидали"
   },
   {
     "question": "Как называется город в игре 'Cyberpunk 2077'?",
@@ -344,11 +284,6 @@
     "question": "Какая серия игр известна своими эпическими космическими сражениями и развитой политической системой?",
     "options": ["EVE Online", "Elite Dangerous", "StarCraft", "No Man's Sky"],
     "correct_answer": "EVE Online"
-  },
-  {
-    "question": "В какой игре персонаж по имени Геральт сражается с монстрами?",
-    "options": ["The Witcher", "Dragon Age", "Dark Souls", "Skyrim"],
-    "correct_answer": "The Witcher"
   },
   {
     "question": "Как называется инопланетная раса, против которой сражаются люди в игре 'XCOM'?",
@@ -471,24 +406,14 @@
       "Red Dead Redemption 2",
       "The Elder Scrolls V: Skyrim",
       "The Legend of Zelda: Breath of the Wild",
-      "Все вышеперечисленные"
+      "Все перечисленные"
     ],
-    "correct_answer": "Все вышеперечисленные"
-  },
-  {
-    "question": "Какой персонаж носит имя 'Зевс' в игре 'Dota 2'?",
-    "options": ["Полубог молний", "Бог войны", "Титан", "Старший маг"],
-    "correct_answer": "Полубог молний"
+    "correct_answer": "Все перечисленные"
   },
   {
     "question": "Какая игра считается прародителем жанра 'Battle Royale'?",
     "options": ["PUBG", "Fortnite", "Apex Legends", "Call of Duty: Warzone"],
     "correct_answer": "PUBG"
-  },
-  {
-    "question": "Как называется планета, на которой происходит действие игры 'Mass Effect'?",
-    "options": ["Земля", "Тучанка", "Паллавен", "Иллюзия"],
-    "correct_answer": "Иллюзия"
   },
   {
     "question": "Какой герой в игре 'Overwatch' имеет способности управлять временем?",
@@ -551,11 +476,6 @@
     "correct_answer": "Minecraft"
   },
   {
-    "question": "Какая игра знаменита своими командными сражениями в формате 5 на 5 и является одной из первых в жанре MOBA?",
-    "options": ["Dota 2", "League of Legends", "Heroes of the Storm", "Smite"],
-    "correct_answer": "Dota 2"
-  },
-  {
     "question": "Как называется главный город в игре 'Cyberpunk 2077'?",
     "options": ["Найт-Сити", "Мидгард", "Санктуарий", "Рапчур"],
     "correct_answer": "Найт-Сити"
@@ -566,11 +486,6 @@
     "correct_answer": "Саб-Зиро"
   },
   {
-    "question": "Как называется вымышленный континент, на котором происходит действие игры 'The Witcher 3: Wild Hunt'?",
-    "options": ["Северные королевства", "Тедас", "Тамриэль", "Хайрул"],
-    "correct_answer": "Северные королевства"
-  },
-  {
     "question": "Какая игра включает в себя охоту на механических существ в постапокалиптическом мире?",
     "options": [
       "Horizon Zero Dawn",
@@ -579,11 +494,6 @@
       "Ark: Survival Evolved"
     ],
     "correct_answer": "Horizon Zero Dawn"
-  },
-  {
-    "question": "Как зовут злодея, который противостоит Ларе Крофт в игре 'Tomb Raider'?",
-    "options": ["Якоб", "Маттиас", "Аманда Эверетт", "Натла"],
-    "correct_answer": "Маттиас"
   },
   {
     "question": "Как зовут главного героя в игре 'Metal Gear Solid', который также известен как 'Big Boss'?",
@@ -601,11 +511,6 @@
     "correct_answer": "Fortnite"
   },
   {
-    "question": "Какой инопланетный артефакт является центральной темой в игре 'Halo'?",
-    "options": ["Кольцо Хало", "Тёмная звезда", "Монолит", "Пандорика"],
-    "correct_answer": "Кольцо Хало"
-  },
-  {
     "question": "Какая серия игр известна своими глобальными стратегическими сражениями и управлением цивилизациями?",
     "options": [
       "Civilization",
@@ -614,11 +519,6 @@
       "Europa Universalis"
     ],
     "correct_answer": "Civilization"
-  },
-  {
-    "question": "Как называется мистическое существо, с которым борется главный герой в игре 'Shadow of the Colossus'?",
-    "options": ["Колоссы", "Гиганты", "Титаны", "Боги"],
-    "correct_answer": "Колоссы"
   },
   {
     "question": "Как зовут главного персонажа в игре 'BioShock Infinite', который должен спасти девушку по имени Элизабет?",
@@ -641,11 +541,6 @@
     "correct_answer": "DOOM"
   },
   {
-    "question": "Как называется главный антагонист в игре 'Portal', искусственный интеллект, который управляет тестовой камерой?",
-    "options": ["GLaDOS", "Cortana", "Wheatley", "HAL 9000"],
-    "correct_answer": "GLaDOS"
-  },
-  {
     "question": "Какая игра включает в себя управление фермой, выращивание урожая и взаимодействие с жителями деревни?",
     "options": [
       "Stardew Valley",
@@ -659,21 +554,6 @@
     "question": "Как называется организация, с которой сражается Адам Дженсен в игре 'Deus Ex: Human Revolution'?",
     "options": ["Иллюминаты", "ЦЕРН", "Теневое правительство", "Легионы"],
     "correct_answer": "Иллюминаты"
-  },
-  {
-    "question": "Какой персонаж из игры 'Metal Gear Solid' известен своими психическими способностями и контролем над разумом?",
-    "options": ["Psycho Mantis", "Ocelot", "Revolver Ocelot", "Sniper Wolf"],
-    "correct_answer": "Psycho Mantis"
-  },
-  {
-    "question": "Как называется игра, в которой игроки управляют выжившими на враждебной планете и сражаются с инопланетными существами?",
-    "options": [
-      "Subnautica",
-      "ARK: Survival Evolved",
-      "The Forest",
-      "No Man's Sky"
-    ],
-    "correct_answer": "ARK: Survival Evolved"
   },
   {
     "question": "Как зовут персонажа в игре 'The Last of Us', который путешествует с Элли?",
@@ -701,11 +581,6 @@
     "correct_answer": "Rage"
   },
   {
-    "question": "Какой известный персонаж из серии игр 'Tekken' владеет стилем боя 'Электрический Бог'?",
-    "options": ["Кадзуя Мисима", "Хэйхачи Мисима", "Джин Кадзама", "Лей Улонг"],
-    "correct_answer": "Кадзуя Мисима"
-  },
-  {
     "question": "Как зовут напарника Криса Редфилда в игре 'Resident Evil 5'?",
     "options": [
       "Шева Аломар",
@@ -719,11 +594,6 @@
     "question": "Как называется игра, в которой игроки управляют большими боевыми мехами в многопользовательских сражениях?",
     "options": ["Titanfall", "MechWarrior", "Hawken", "Armored Core"],
     "correct_answer": "Titanfall"
-  },
-  {
-    "question": "Какой персонаж из игры 'The Legend of Zelda' известен своей способностью превращаться в волка?",
-    "options": ["Линк", "Зельда", "Ганон", "Мидна"],
-    "correct_answer": "Линк"
   },
   {
     "question": "Какая игра является прародителем жанра хоррор на выживание, где игрок сражается с зомби в особняке?",
@@ -816,40 +686,17 @@
     "correct_answer": "Торбьорн"
   },
   {
-    "question": "Как называется игра, в которой игроки исследуют подземелья и сражаются с врагами в стиле roguelike?",
-    "options": ["Hades", "Dead Cells", "Enter the Gungeon", "Binding of Isaac"],
-    "correct_answer": "Hades"
-  },
-  {
     "question": "Как зовут протагониста в игре 'Dishonored', который получил способности от Чужого?",
     "options": ["Корво Аттано", "Дауд", "Эмили Колдуин", "Сэмюэль"],
     "correct_answer": "Корво Аттано"
   },
-  {
-    "question": "Как называется игра, в которой игроки управляют капитаном космического корабля, исследующим вселенную?",
-    "options": [
-      "No Man's Sky",
-      "Elite Dangerous",
-      "Star Citizen",
-      "EVE Online"
-    ],
-    "correct_answer": "No Man's Sky"
-  },
+
   {
     "question": "Как зовут персонажа в игре 'The Elder Scrolls V: Skyrim', который является драконом и главным антагонистом?",
     "options": ["Алдуин", "Партурнакс", "Мирак", "Одавинг"],
     "correct_answer": "Алдуин"
   },
-  {
-    "question": "Как называется игра, где игроки управляют пиратами, исследуют океаны и ищут сокровища?",
-    "options": [
-      "Sea of Thieves",
-      "Assassin's Creed IV: Black Flag",
-      "Skull and Bones",
-      "Atlas"
-    ],
-    "correct_answer": "Sea of Thieves"
-  },
+
   {
     "question": "Какой персонаж из 'Final Fantasy IX' известен своими черными магическими способностями?",
     "options": ["Виви", "Зидан", "Фрея", "Гарнет"],
@@ -906,7 +753,7 @@
     "correct_answer": "Талос I"
   },
   {
-    "question": "Какой игровой персонаж известен своей фразой 'War. War never changes.'?",
+    "question": "Какой игровой персонаж известен своей фразой 'Война. Война никогда не меняется.'?",
     "options": [
       "Нарратор в 'Fallout'",
       "Гордон Фриман",
@@ -914,11 +761,6 @@
       "Солид Снейк"
     ],
     "correct_answer": "Нарратор в 'Fallout'"
-  },
-  {
-    "question": "Какой шутер от первого лица позволял игрокам управлять временем с помощью часов?",
-    "options": ["Singularity", "TimeShift", "Quantum Break", "Control"],
-    "correct_answer": "TimeShift"
   },
   {
     "question": "Как называется главный герой в игре 'Sleeping Dogs', работающий под прикрытием?",
@@ -934,21 +776,6 @@
     "question": "Какой персонаж из 'Fortnite' стал известен как охотник за головами и был частью кроссовера с 'Star Wars'?",
     "options": ["Мандалорец", "Рей", "Кайло Рен", "Люк Скайуокер"],
     "correct_answer": "Мандалорец"
-  },
-  {
-    "question": "Как называется игра, где игроки строят и управляют парком развлечений?",
-    "options": [
-      "Planet Coaster",
-      "RollerCoaster Tycoon",
-      "Theme Park",
-      "Parkitect"
-    ],
-    "correct_answer": "RollerCoaster Tycoon"
-  },
-  {
-    "question": "Какой герой из 'Overwatch' может восстанавливать здоровье и атаковать врагов с помощью биотического снаряжения?",
-    "options": ["Моира", "Мерси", "Ана", "Лусио"],
-    "correct_answer": "Моира"
   },
   {
     "question": "Как называется игра, где игроки путешествуют по бескрайним пустошам в постапокалиптическом мире, управляя бронемашинами?",
@@ -976,24 +803,14 @@
     "correct_answer": "Animal Crossing"
   },
   {
-    "question": "Как называется популярная инди-игра, где игрокам нужно пройти подземелье, избегая смертельных ловушек и сражаясь с монстрами?",
-    "options": ["Hollow Knight", "Dead Cells", "Celeste", "Blasphemous"],
-    "correct_answer": "Hollow Knight"
-  },
-  {
-    "question": "Какая игра рассказывает о приключениях ведьмы по имени Баюнетта, сражающейся с ангелами и демонами?",
-    "options": ["Bayonetta", "Devil May Cry", "Darksiders", "Nier: Automata"],
-    "correct_answer": "Bayonetta"
-  },
-  {
     "question": "Как называется игра, где игроки управляют виртуальными людьми, строят дома и создают свою жизнь?",
     "options": ["The Sims", "Second Life", "Stardew Valley", "SimCity"],
     "correct_answer": "The Sims"
   },
   {
     "question": "Как зовут главного героя в игре 'Cyberpunk 2077', которому помогает Джонни Сильверхенд?",
-    "options": ["V", "Джеки Уэллс", "Такемура", "Ривз"],
-    "correct_answer": "V"
+    "options": ["Ви", "Джеки Уэллс", "Такемура", "Ривз"],
+    "correct_answer": "Ви"
   },
   {
     "question": "Как называется оружие, которое использует Думгай в игре 'DOOM' для ближнего боя?",
@@ -1014,11 +831,6 @@
     "question": "Как зовут робота-помощника в серии игр 'Fallout'?",
     "options": ["Мистер Храбрец", "Бип-Боп", "Валли", "Джи-Пи-Ти"],
     "correct_answer": "Мистер Храбрец"
-  },
-  {
-    "question": "Как называется головной убор, который носит главный герой в игре 'Team Fortress 2'?",
-    "options": ["Шляпа", "Каска", "Берет", "Панама"],
-    "correct_answer": "Шляпа"
   },
   {
     "question": "Какая игра рассказывает о космических рейнджерах, сражающихся с инопланетными угрозами?",
@@ -1071,21 +883,6 @@
     "correct_answer": "Найт-Сити"
   },
   {
-    "question": "Какой герой в игре 'Dota 2' известен своей способностью захватывать вражеских героев в клетку?",
-    "options": ["Shadow Shaman", "Pudge", "Invoker", "Rubick"],
-    "correct_answer": "Shadow Shaman"
-  },
-  {
-    "question": "Как называется игра, где игроки управляют пиратами и участвуют в морских битвах?",
-    "options": [
-      "Sea of Thieves",
-      "Assassin's Creed IV: Black Flag",
-      "Skull & Bones",
-      "Port Royale"
-    ],
-    "correct_answer": "Sea of Thieves"
-  },
-  {
     "question": "Как называется игра, в которой игроки строят колонию на Марсе?",
     "options": ["Surviving Mars", "No Man's Sky", "Planetbase", "RimWorld"],
     "correct_answer": "Surviving Mars"
@@ -1097,13 +894,8 @@
   },
   {
     "question": "Какая игра популяризировала жанр 'battle royale', предоставляя игрокам возможность сражаться до последнего выжившего?",
-    "options": [
-      "PlayerUnknown's Battlegrounds (PUBG)",
-      "Fortnite",
-      "Apex Legends",
-      "H1Z1"
-    ],
-    "correct_answer": "PlayerUnknown's Battlegrounds (PUBG)"
+    "options": ["PUBG", "Fortnite", "Apex Legends", "H1Z1"],
+    "correct_answer": "PUBG"
   },
   {
     "question": "Как называется игра, в которой игроки управляют танками и сражаются в командных битвах?",
@@ -1114,16 +906,6 @@
       "Battlefield"
     ],
     "correct_answer": "World of Tanks"
-  },
-  {
-    "question": "Как называется игра, в которой игроки выживают на необитаемом острове, борясь с природными угрозами и дикими животными?",
-    "options": ["The Forest", "Stranded Deep", "Rust", "Ark: Survival Evolved"],
-    "correct_answer": "Stranded Deep"
-  },
-  {
-    "question": "Какой персонаж из 'Overwatch' может использовать способность телепортации и наносить огромный урон своими клинками?",
-    "options": ["Генджи", "Сомбра", "Трейсер", "Райнхардт"],
-    "correct_answer": "Генджи"
   },
   {
     "question": "Как называется финальная игра в серии 'Dark Souls', которая завершает сюжетную линию?",
@@ -1146,19 +928,9 @@
     "correct_answer": "7 Days to Die"
   },
   {
-    "question": "Какой стиль игры характеризуется перезапуском уровня при смерти персонажа?",
-    "options": ["Roguelike", "Metroidvania", "Platformer", "Battle Royale"],
-    "correct_answer": "Roguelike"
-  },
-  {
     "question": "Какой персонаж является главным антагонистом в 'The Legend of Zelda'?",
     "options": ["Ганон", "Морфу", "Занас", "Дарк Линк"],
     "correct_answer": "Ганон"
-  },
-  {
-    "question": "Какой герой 'Dota 2' может превращаться в дерево?",
-    "options": ["Treant Protector", "Nature's Prophet", "Chen", "Lycan"],
-    "correct_answer": "Treant Protector"
   },
   {
     "question": "Как называется первая игра в серии 'Resident Evil', которая представила зомби как главных врагов?",
@@ -1191,7 +963,7 @@
     "correct_answer": "Риддлер"
   },
   {
-    "question": "Какой мир открытого мира считается одним из самых обширных в игре 'The Witcher 3: Wild Hunt'?",
+    "question": "Какой регион открытого мира считается одним из самых обширных в игре 'The Witcher 3: Wild Hunt'?",
     "options": ["Скеллиге", "Новиград", "Вызим", "Бланда"],
     "correct_answer": "Скеллиге"
   },
@@ -1206,34 +978,9 @@
     "correct_answer": "Рю"
   },
   {
-    "question": "Какой вид игры позволяет игрокам управлять экзоскелетом в будущем?",
-    "options": [
-      "Titanfall",
-      "Call of Duty: Advanced Warfare",
-      "Halo",
-      "Gears of War"
-    ],
-    "correct_answer": "Call of Duty: Advanced Warfare"
-  },
-  {
-    "question": "Какой персонаж 'Overwatch' является бывшим капитаном отряда 'Deadlock Gang'?",
-    "options": ["Эш", "Думфист", "Майя", "Трейсер"],
-    "correct_answer": "Эш"
-  },
-  {
     "question": "Какой инди-проект стал знаменитым благодаря своей механике постройки и выживания в процедурно сгенерированном мире?",
     "options": ["Terraria", "Minecraft", "Don't Starve", "Starbound"],
     "correct_answer": "Minecraft"
-  },
-  {
-    "question": "Как называется игра, в которой игроки сражаются друг с другом на аренах в виде мультяшных персонажей?",
-    "options": [
-      "Brawlhalla",
-      "Super Smash Bros.",
-      "Mortal Kombat",
-      "Street Fighter"
-    ],
-    "correct_answer": "Super Smash Bros."
   },
   {
     "question": "Какой персонаж 'God of War' является сыном Кратоса?",
@@ -1246,34 +993,14 @@
     "correct_answer": "Эдвард Кенуэй"
   },
   {
-    "question": "Какой персонаж является героем игры 'Portal'?",
-    "options": ["Chell", "GLaDOS", "Wheatley", "Aperture"],
-    "correct_answer": "Chell"
-  },
-  {
-    "question": "Какой боевой жанр игры 'Street Fighter'?",
-    "options": ["Файтинги", "РПГ", "Симуляторы", "Стратегии"],
-    "correct_answer": "Файтинги"
-  },
-  {
-    "question": "Какой цвет использует главный герой игры 'Undertale' для своего сердечка?",
-    "options": ["Красный", "Синий", "Зеленый", "Желтый"],
-    "correct_answer": "Красный"
-  },
-  {
     "question": "Какой артефакт в 'The Legend of Zelda' дает возможность летать?",
     "options": ["Грифон", "Летающий ботинок", "Параглайдер", "Летающий меч"],
     "correct_answer": "Параглайдер"
   },
   {
-    "question": "Какой инди-игра включает в себя 'endless runner' механику и платформенные элементы?",
+    "question": "Какой инди-игра включает в себя поджанр 'Бесконечный раннер' и платформенные элементы?",
     "options": ["Celeste", "Hollow Knight", "Super Meat Boy", "Jump King"],
     "correct_answer": "Super Meat Boy"
-  },
-  {
-    "question": "Кто является главным антагонистом в 'Bioshock'?",
-    "options": ["Andrew Ryan", "Comstock", "Atlas", "Big Daddy"],
-    "correct_answer": "Andrew Ryan"
   },
   {
     "question": "Какой персонаж из 'Halo' является известным воином из Спартанской программы?",
@@ -1281,83 +1008,88 @@
     "correct_answer": "Master Chief"
   },
   {
-    "question": "В какой игре игроки могут управлять одним из 36 уникальных героев?",
-    "options": ["Overwatch", "League of Legends", "Dota 2", "Team Fortress 2"],
-    "correct_answer": "Overwatch"
-  },
-  {
     "question": "Какой элемент в 'Minecraft' используется для создания портала в Нижний мир?",
     "options": ["Алмаз", "Золото", "Обсидиан", "Железо"],
     "correct_answer": "Обсидиан"
   },
   {
-    "question": "Какой игровой мир стал знаменит благодаря своим 'криптовалютам' в 'Dota 2'?",
-    "options": ["Rift", "Runeterra", "Norrath", "Azeroth"],
-    "correct_answer": "Azeroth"
+    "question": "Какой жанр у игры 'Celeste'?",
+    "options": ["Платформер", "Головоломка", "Стратегия", "Шутер"],
+    "correct_answer": "Платформер"
   },
   {
-    "question": "Какой заголовок является частью серии 'Final Fantasy'?",
-    "options": ["Persona", "Xenogears", "Chrono Trigger", "Final Fantasy VII"],
-    "correct_answer": "Final Fantasy VII"
+    "question": "Какой герой является главным персонажем в серии игр 'Tomb Raider'?",
+    "options": ["Лара Крофт", "Натан Дрейк", "Аликс Вэнс", "Сэмус Аран"],
+    "correct_answer": "Лара Крофт"
   },
   {
-    "question": "Какой персонаж является логотипом компании 'Sega'?",
-    "options": ["Mario", "Crash Bandicoot", "Sonic the Hedgehog", "Pikachu"],
-    "correct_answer": "Sonic the Hedgehog"
+    "question": "Как называется вирус, который вызывает зомби-эпидемию в серии игр 'Resident Evil'?",
+    "options": ["Т-вирус", "G-вирус", "Раккун вирус", "Пироновый вирус"],
+    "correct_answer": "Т-вирус"
   },
   {
-    "question": "В какой игре игроки управляют одним из 100 персонажей на боевой арене?",
-    "options": ["Apex Legends", "Fortnite", "Call of Duty", "PUBG"],
-    "correct_answer": "Fortnite"
+    "question": "Какая игра была первой в серии 'The Elder Scrolls'?",
+    "options": ["Arena", "Daggerfall", "Morrowind", "Oblivion"],
+    "correct_answer": "Arena"
   },
   {
-    "question": "Какой элемент используется для создания 'доспехов' в 'Dark Souls'?",
-    "options": ["Кожаные куски", "Ткань", "Металл", "Камень"],
-    "correct_answer": "Металл"
-  },
-  {
-    "question": "Какой элемент игрового процесса является характерным для серии 'Assassin's Creed'?",
-    "options": ["Паркур", "Стратегия", "Гонки", "Тайм-тревел"],
-    "correct_answer": "Паркур"
-  },
-  {
-    "question": "Какой известный главный герой является пиратом в игре 'Sea of Thieves'?",
+    "question": "Какой жанр у игры 'Cuphead'?",
     "options": [
-      "Jack Sparrow",
-      "Captain Morgan",
-      "William Turner",
-      "Капитан Мёртвая голова"
+      "Платформер с элементами шутера",
+      "Рогалик",
+      "Головоломка",
+      "Тактическая стратегия"
     ],
-    "correct_answer": "Капитан Мёртвая голова"
+    "correct_answer": "Платформер с элементами шутера"
   },
   {
-    "question": "Какой инструмент используется для навигации в игре 'The Witcher 3'?",
-    "options": ["Картография", "Чувство эльфов", "Словарь", "Корабль"],
-    "correct_answer": "Картография"
+    "question": "Какая игра от FromSoftware основана на феодальной Японии?",
+    "options": [
+      "Sekiro: Shadows Die Twice",
+      "Bloodborne",
+      "Dark Souls",
+      "Nioh"
+    ],
+    "correct_answer": "Sekiro: Shadows Die Twice"
   },
   {
-    "question": "Какой элемент управления характерен для 'Guitar Hero'?",
-    "options": ["Клавиатура", "Гитара", "Джойстик", "Мышь"],
-    "correct_answer": "Гитара"
+    "question": "Какой персонаж из серии игр 'Resident Evil' впервые появился как главный герой в 'Resident Evil 2'?",
+    "options": ["Леон Кеннеди", "Крис Редфилд", "Ада Вонг", "Джилл Валентайн"],
+    "correct_answer": "Леон Кеннеди"
   },
   {
-    "question": "Какой известный игровой заголовок включает в себя персонажа по имени 'Samus Aran'?",
-    "options": ["Metroid", "Zelda", "Halo", "Final Fantasy"],
-    "correct_answer": "Metroid"
+    "question": "Какой персонаж является главным протагонистом в игре 'Assassin's Creed II'?",
+    "options": [
+      "Эцио Аудиторе",
+      "Альтаир ибн Ла-Ахад",
+      "Коннор",
+      "Эдвард Кенуэй"
+    ],
+    "correct_answer": "Эцио Аудиторе"
   },
   {
-    "question": "Какой элемент является основной механикой в игре 'Braid'?",
-    "options": ["Прыжки", "Временные манипуляции", "Сбор предметов", "Бой"],
-    "correct_answer": "Временные манипуляции"
+    "question": "Какой персонаж в 'Super Mario Bros.' известен как главный антагонист?",
+    "options": ["Боузер", "Луиджи", "Йоши", "Купа Трупа"],
+    "correct_answer": "Боузер"
   },
   {
-    "question": "Какой жанр игры 'Animal Crossing'?",
-    "options": ["Симулятор жизни", "Приключенческая игра", "Стратегия", "Экшн"],
-    "correct_answer": "Симулятор жизни"
+    "question": "Какая игра от CD Projekt Red была выпущена после 'The Witcher 3'?",
+    "options": ["Cyberpunk 2077", "Gwent", "Thronebreaker", "Blood and Wine"],
+    "correct_answer": "Cyberpunk 2077"
   },
   {
-    "question": "Какой персонаж является боксером в игре 'Street Fighter'?",
-    "options": ["Ryu", "Chun-Li", "Balrog", "Guile"],
-    "correct_answer": "Balrog"
+    "question": "Какой жанр игры 'Terraria'?",
+    "options": ["Песочница", "Симулятор жизни", "Экшн-RPG", "Стратегия"],
+    "correct_answer": "Песочница"
+  },
+  {
+    "question": "Какой класс в 'World of Warcraft' использует темную магию и демонов?",
+    "options": ["Чернокнижник", "Маг", "Рыцарь смерти", "Жрец"],
+    "correct_answer": "Чернокнижник"
+  },
+  {
+    "question": "Какой персонаж является главным героем игры 'God of War'?",
+    "options": ["Кратос", "Арес", "Зевс", "Геракл"],
+    "correct_answer": "Кратос"
   }
 ]
