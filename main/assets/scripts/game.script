@@ -18,6 +18,7 @@ function init(self)
 	pprint(self.game_questions)
 	self.current_question = 1
 	msg.post('#gui', 'new_question',{question = self.game_questions[self.current_question], number_question = self.current_question})
+	print(#self.game_questions..' вопросов')
 end
 
 
@@ -26,7 +27,14 @@ function on_message(self, message_id, message, sender)
 	if message_id == hash('next_question') then
 
 		self.current_question = self.current_question + 1
-		msg.post('#gui', 'new_question',{question = self.game_questions[self.current_question], number_question = self.current_question})
+		if self.current_question > #self.game_questions then
+			msg.post('/game#gui', 'end')
+			msg.post('/game#end_game', 'enable')
+			msg.post('#gui', 'disable')
+		else
+			msg.post('#gui', 'new_question',{question = self.game_questions[self.current_question], number_question = self.current_question})
+		end
+		
 	end
 end
 
