@@ -5,8 +5,9 @@ main_collection = /main/proxy.collectionc
 shared_state = 1
 
 [display]
-width = 960
-height = 640
+width = 430
+height = 932
+high_dpi = 1
 
 [android]
 input_method = HiddenInputField
@@ -22,4 +23,8 @@ clear_color_red = 0.314
 clear_color_alpha = 1.0
 clear_color_green = 0.008
 clear_color_blue = 0.431
+
+[html5]
+show_made_with_defold = 0
+show_fullscreen_button = 0
 
