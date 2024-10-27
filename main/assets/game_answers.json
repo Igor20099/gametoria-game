@@ -296,11 +296,6 @@
     "correct_answer": "Симулятор кулинарии"
   },
   {
-    "question": "Как называется главный герой в игре 'Hollow Knight'?",
-    "options": ["Безымянный рыцарь", "Призрак", "Геральт", "Вестник"],
-    "correct_answer": "Безымянный рыцарь"
-  },
-  {
     "question": "В какой игре впервые появился персонаж Соник?",
     "options": [
       "Sonic the Hedgehog",
@@ -376,11 +371,6 @@
     "correct_answer": "Клауд Страйф"
   },
   {
-    "question": "Как называется инопланетный враг, с которым борются игроки в игре 'XCOM 2'?",
-    "options": ["Адвент", "Тираниды", "Зерги", "Протоссы"],
-    "correct_answer": "Адвент"
-  },
-  {
     "question": "Какая игра известна своим киберпанковским сеттингом и персонажем Джонни Сильверхендом?",
     "options": ["Cyberpunk 2077", "Deus Ex", "System Shock", "Observer"],
     "correct_answer": "Cyberpunk 2077"
@@ -399,16 +389,6 @@
     "question": "Как называется знаменитая серия игр про взломщиков и киберпреступников?",
     "options": ["Watch Dogs", "Cyberpunk 2077", "Hitman", "Metal Gear Solid"],
     "correct_answer": "Watch Dogs"
-  },
-  {
-    "question": "Какая игра знаменита своими гигантскими открытыми мирами, где можно кататься на лошадях и исследовать локации?",
-    "options": [
-      "Red Dead Redemption 2",
-      "The Elder Scrolls V: Skyrim",
-      "The Legend of Zelda: Breath of the Wild",
-      "Все перечисленные"
-    ],
-    "correct_answer": "Все перечисленные"
   },
   {
     "question": "Какая игра считается прародителем жанра 'Battle Royale'?",
@@ -456,11 +436,6 @@
     "correct_answer": "Нормандия"
   },
   {
-    "question": "Какой персонаж из 'Street Fighter' известен своими огненными кулаками и Хадукеном?",
-    "options": ["Рю", "Кен", "Гайл", "Чунь Ли"],
-    "correct_answer": "Рю"
-  },
-  {
     "question": "Как называется мир, в котором происходит действие игры 'The Elder Scrolls V: Skyrim'?",
     "options": ["Нирн", "Тамриэль", "Винтерхолд", "Морровинд"],
     "correct_answer": "Тамриэль"
@@ -471,7 +446,7 @@
     "correct_answer": "Линк"
   },
   {
-    "question": "Как называется игра, где игроки строят и разрушают блоки в мире с открытым миром?",
+    "question": "Как называется игра, где игроки строят и разрушают блоки?",
     "options": ["Minecraft", "Terraria", "Rust", "Fortnite"],
     "correct_answer": "Minecraft"
   },
@@ -650,16 +625,7 @@
     "options": ["Красавчик Джек", "Роланд", "Лилит", "Зеро"],
     "correct_answer": "Красавчик Джек"
   },
-  {
-    "question": "Как называется оружие, используемое Гордоном Фриманом в игре 'Half-Life', которое позволяет манипулировать физическими объектами?",
-    "options": [
-      "Гравитационная пушка",
-      "Монтировка",
-      "Плазменная пушка",
-      "Электрошокер"
-    ],
-    "correct_answer": "Гравитационная пушка"
-  },
+
   {
     "question": "Какой герой в игре 'League of Legends' известен своей способностью управлять тенями?",
     "options": ["Зед", "Ясуо", "Акали", "Каин"],
@@ -670,16 +636,7 @@
     "options": ["Нейтан Дрейк", "Лара Крофт", "Индиана Джонс", "Салли"],
     "correct_answer": "Нейтан Дрейк"
   },
-  {
-    "question": "Какая игра известна своим уникальным стилем визуального повествования и загадками с порталом времени?",
-    "options": [
-      "The Talos Principle",
-      "Portal",
-      "The Witness",
-      "The Stanley Parable"
-    ],
-    "correct_answer": "The Talos Principle"
-  },
+
   {
     "question": "Какой герой из 'Overwatch' может вызывать турели и чинить броню для команды?",
     "options": ["Торбьорн", "Бастион", "Райнхардт", "Симметра"],
@@ -843,20 +800,11 @@
     "correct_answer": "Жрец"
   },
   {
-    "question": "Как называется главный антагонист в игре 'BioShock', который управляет городом под водой?",
+    "question": "Как зовут главного антагониста в игре 'BioShock', который управляет городом под водой?",
     "options": ["Эндрю Райан", "Фрэнк Фонтейн", "Доктор Стайнман", "Салли"],
     "correct_answer": "Эндрю Райан"
   },
-  {
-    "question": "Как называется игра, в которой игроки управляют животными и занимаются фермерством на необитаемом острове?",
-    "options": [
-      "Animal Crossing: New Horizons",
-      "Stardew Valley",
-      "Harvest Moon",
-      "My Time at Portia"
-    ],
-    "correct_answer": "Animal Crossing: New Horizons"
-  },
+
   {
     "question": "Какой вид оружия наиболее характерен для серии игр 'Halo'?",
     "options": [
@@ -988,12 +936,12 @@
     "correct_answer": "Атрей"
   },
   {
-    "question": "Какой из следующих персонажей является главным героем игры 'Assassin's Creed IV: Black Flag'?",
+    "question": "Кто из следующих персонажей является главным героем игры 'Assassin's Creed IV: Black Flag'?",
     "options": ["Эдвард Кенуэй", "Альтаир", "Эдит Уитт", "Кони"],
     "correct_answer": "Эдвард Кенуэй"
   },
   {
-    "question": "Какой артефакт в 'The Legend of Zelda' дает возможность летать?",
+    "question": "Что в 'The Legend of Zelda' дает возможность летать?",
     "options": ["Грифон", "Летающий ботинок", "Параглайдер", "Летающий меч"],
     "correct_answer": "Параглайдер"
   },
@@ -1078,12 +1026,12 @@
     "correct_answer": "Cyberpunk 2077"
   },
   {
-    "question": "Какой жанр игры 'Terraria'?",
+    "question": "Какой жанр у игры 'Terraria'?",
     "options": ["Песочница", "Симулятор жизни", "Экшн-RPG", "Стратегия"],
     "correct_answer": "Песочница"
   },
   {
-    "question": "Какой класс в 'World of Warcraft' использует темную магию и демонов?",
+    "question": "Какой класс в 'World of Warcraft' использует темную магию и призыв демонов?",
     "options": ["Чернокнижник", "Маг", "Рыцарь смерти", "Жрец"],
     "correct_answer": "Чернокнижник"
   },
@@ -1093,7 +1041,7 @@
     "correct_answer": "Кратос"
   },
   {
-    "question": "Какой из следующих персонажей является главным героем игры 'Assassin's Creed IV: Black Flag'?",
+    "question": "Кто из следующих персонажей является главным героем игры 'Assassin's Creed IV: Black Flag'?",
     "options": ["Эдвард Кенуэй", "Альтаир", "Эдит Уитт", "Кони"],
     "correct_answer": "Эдвард Кенуэй"
   },
@@ -1142,16 +1090,7 @@
     "options": ["Пандора", "Гелиос", "Терра", "Элизиум"],
     "correct_answer": "Пандора"
   },
-  {
-    "question": "Как называется игра, в которой нужно охотиться на гигантских роботов в фэнтезийном мире?",
-    "options": [
-      "Monster Hunter",
-      "Horizon Zero Dawn",
-      "Dark Souls",
-      "The Witcher 3"
-    ],
-    "correct_answer": "Horizon Zero Dawn"
-  },
+
   {
     "question": "Как называется гоночная серия игр, в которой игроки могут участвовать в нелегальных уличных гонках?",
     "options": ["Need for Speed", "Gran Turismo", "Forza Horizon", "F1"],
@@ -1226,5 +1165,55 @@
     "question": "Как называется жанр, в котором уровни генерируются случайным образом?",
     "options": ["Роуглайк", "РПГ", "Платформер", "Шутер"],
     "correct_answer": "Роуглайк"
+  },
+  {
+    "question": "Кто главный персонаж в игре 'Hitman'?",
+    "options": ["Агент 47", "Саймон", "Патрик", "Кевин"],
+    "correct_answer": "Агент 47"
+  },
+  {
+    "question": "Какая игра является Free-to-Play и похожа на 'Diablo'?",
+    "options": ["Titan Quest", "Path Of Exile", "Sacred", "Last Epoch"],
+    "correct_answer": "Path Of Exile"
+  },
+  {
+    "question": "Как называется игра, где главный герой управляет электричеством?",
+    "options": ["InFamous", "Prototype", "Second Sight", "Fahrenheit"],
+    "correct_answer": "InFamous"
+  },
+  {
+    "question": "Cамая первая игра в жанре MMORPG?",
+    "options": [
+      "Lineage",
+      "World of Warcraft",
+      "Neverwinter Nights",
+      "Ultima Online"
+    ],
+    "correct_answer": "Neverwinter Nights"
+  },
+  {
+    "question": "В какой части 'Heroes of Might and Magic' есть фракция 'Сопряжение'?",
+    "options": ["Heroes 2", "Heroes 3", "Heroes 4", "Heroes 5"],
+    "correct_answer": "Heroes 3"
+  },
+  {
+    "question": "Как называется игра, где вы управляете зомби?",
+    "options": ["DayZ", "Stubbs the Zombie", "Left 4 dead", "Resident Evil"],
+    "correct_answer": "Stubbs the Zombie"
+  },
+  {
+    "question": "В какой части 'Принц Персии' принц может становиться Темным принцом?",
+    "options": [
+      "Пески времени",
+      "Схватка с судьбой",
+      "Два трона",
+      "Забытые пески"
+    ],
+    "correct_answer": "Два трона"
+  },
+  {
+    "question": "Как называется игра, в которой игрок играет за зло и управляет миньонами?",
+    "options": ["Overlord", "Pikmin", "Kena: Bridge of Spirits", "Magicka"],
+    "correct_answer": "Overlord"
   }
 ]
