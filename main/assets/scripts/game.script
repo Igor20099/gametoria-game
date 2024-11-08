@@ -12,7 +12,7 @@ end
 
 function init(self)
 	msg.post('#end_game', 'disable')
-	msg.post('#continue', 'disable')
+	msg.post('#end_game_2', 'disable')
 	local game_questions_json = sys.load_resource("/main/assets/game_answers.json")
 	self.game_questions = json.decode(game_questions_json)
 	shuffle_table(self.game_questions)
@@ -32,7 +32,7 @@ function on_message(self, message_id, message, sender)
 		self.current_question = self.current_question + 1
 		if self.current_question > #self.game_questions then
 			msg.post('/game#gui', 'end')
-			msg.post('/game#end_game', 'enable')
+			msg.post('/game#end_game_2', 'enable')
 			msg.post('#gui', 'disable')
 		else
 			msg.post('#gui', 'new_question',{question = self.game_questions[self.current_question], number_question = self.current_question})

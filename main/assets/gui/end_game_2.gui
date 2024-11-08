@@ -1,6 +1,15 @@
+script: "/main/assets/scripts/end_game_2.gui_script"
 fonts {
   name: "arial"
   font: "/main/assets/fonts/arial.font"
+}
+fonts {
+  name: "arial_title"
+  font: "/main/assets/fonts/arial_title.font"
+}
+fonts {
+  name: "Scores"
+  font: "/main/assets/fonts/Scores.font"
 }
 textures {
   name: "atlas"
@@ -32,32 +41,16 @@ nodes {
 }
 nodes {
   position {
-    x: 211.0
-    y: 506.0
+    x: 216.0
+    y: 389.0
   }
   size {
-    x: 300.0
-    y: 100.0
-  }
-  type: TYPE_TEXT
-  text: "\320\245\320\276\321\202\320\270\321\202\320\265 \320\277\321\200\320\276\320\264\320\276\320\273\320\266\320\270\321\202\321\214 \320\270\320\263\321\200\321\203 \320\277\320\276\321\201\320\274\320\276\321\202\321\200\320\265\320\262 \321\200\320\265\320\272\320\273\320\260\320\274\321\203?"
-  font: "arial"
-  id: "text"
-  line_break: true
-  inherit_alpha: true
-}
-nodes {
-  position {
-    x: 134.0
-    y: 383.0
-  }
-  size {
-    x: 100.0
+    x: 250.0
     y: 64.0
   }
   type: TYPE_BOX
   texture: "atlas/button_rectangle_depth_gradient"
-  id: "yes"
+  id: "restart"
   inherit_alpha: true
 }
 nodes {
@@ -66,36 +59,43 @@ nodes {
     y: 100.0
   }
   type: TYPE_TEXT
-  text: "\320\224\320\260"
+  text: "\320\237\320\265\321\200\320\265\320\270\320\263\321\200\320\260\321\202\321\214"
   font: "arial"
   id: "text1"
-  parent: "yes"
+  parent: "restart"
   inherit_alpha: true
 }
 nodes {
   position {
-    x: 287.0
-    y: 383.0
+    x: 205.0
+    y: 553.0
   }
-  size {
-    x: 100.0
-    y: 64.0
-  }
-  type: TYPE_BOX
-  texture: "atlas/button_rectangle_depth_gradient1"
-  id: "no"
-}
-nodes {
   size {
     x: 200.0
     y: 100.0
   }
   type: TYPE_TEXT
-  text: "\320\235\320\265\321\202\n"
+  text: "\320\236\321\207\320\272\320\270: 0\n"
+  "\n"
   ""
-  font: "arial"
-  id: "text2"
-  parent: "no"
+  font: "arial_title"
+  id: "scores"
+  inherit_alpha: true
+}
+nodes {
+  position {
+    x: 221.0
+    y: 505.0
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\240\320\265\320\272\320\276\321\200\320\264: 0\n"
+  ""
+  font: "arial_title"
+  id: "record"
   inherit_alpha: true
 }
 material: "/builtins/materials/gui.material"

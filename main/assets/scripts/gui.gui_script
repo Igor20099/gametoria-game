@@ -73,7 +73,7 @@ function on_message(self, message_id, message, sender)
 	end
 
 	if message_id == hash('end') then
-		msg.post('/game#end_game', 'show_scores',{scores = self.scores})
+		msg.post('/game#end_game_2', 'show_scores',{scores = self.scores})
 	end
 end
 
