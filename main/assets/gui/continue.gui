@@ -1,11 +1,6 @@
-script: "/main/assets/scripts/end_game.gui_script"
 fonts {
   name: "arial"
   font: "/main/assets/fonts/arial.font"
-}
-fonts {
-  name: "arial_title"
-  font: "/main/assets/fonts/arial_title.font"
 }
 textures {
   name: "atlas"
@@ -18,7 +13,7 @@ nodes {
   }
   scale {
     x: 1.65474
-    y: 5.783855
+    y: 4.535061
   }
   size {
     x: 200.0
@@ -37,41 +32,8 @@ nodes {
 }
 nodes {
   position {
-    x: 205.0
-    y: 590.0
-  }
-  size {
-    x: 200.0
-    y: 100.0
-  }
-  type: TYPE_TEXT
-  text: "\320\236\321\207\320\272\320\270: 0\n"
-  "\n"
-  ""
-  font: "arial_title"
-  id: "scores"
-  inherit_alpha: true
-}
-nodes {
-  position {
-    x: 221.0
-    y: 542.0
-  }
-  size {
-    x: 200.0
-    y: 100.0
-  }
-  type: TYPE_TEXT
-  text: "\320\240\320\265\320\272\320\276\321\200\320\264: 0\n"
-  ""
-  font: "arial_title"
-  id: "record"
-  inherit_alpha: true
-}
-nodes {
-  position {
     x: 211.0
-    y: 478.0
+    y: 506.0
   }
   size {
     x: 300.0
@@ -80,14 +42,14 @@ nodes {
   type: TYPE_TEXT
   text: "\320\245\320\276\321\202\320\270\321\202\320\265 \320\277\321\200\320\276\320\264\320\276\320\273\320\266\320\270\321\202\321\214 \320\270\320\263\321\200\321\203 \320\277\320\276\321\201\320\274\320\276\321\202\321\200\320\265\320\262 \321\200\320\265\320\272\320\273\320\260\320\274\321\203?"
   font: "arial"
-  id: "text1"
+  id: "text"
   line_break: true
   inherit_alpha: true
 }
 nodes {
   position {
     x: 134.0
-    y: 381.0
+    y: 383.0
   }
   size {
     x: 100.0
@@ -106,14 +68,14 @@ nodes {
   type: TYPE_TEXT
   text: "\320\224\320\260"
   font: "arial"
-  id: "text2"
+  id: "text1"
   parent: "yes"
   inherit_alpha: true
 }
 nodes {
   position {
     x: 287.0
-    y: 381.0
+    y: 383.0
   }
   size {
     x: 100.0
@@ -132,7 +94,7 @@ nodes {
   text: "\320\235\320\265\321\202\n"
   ""
   font: "arial"
-  id: "text3"
+  id: "text2"
   parent: "no"
   inherit_alpha: true
 }

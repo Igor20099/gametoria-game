@@ -48,6 +48,23 @@ local function adv_error(self, err)
 	-- Something wrong happened :(
 end
 
+local function rewarded_open(self)
+	-- You should switch off all sounds!
+end
+
+local function rewarded_rewarded(self)
+	msg.post('main:/game#gui', 'continue_game')
+
+end
+
+local function rewarded_close(self)
+	msg.post('main:/game#gui', 'continue')
+end
+
+local function rewarded_error(self, err)
+	-- Something wrong happened :(
+end
+
 function on_message(self, message_id, message)
 	if message_id == hash("show_fullscreen_adv") then
 		yagames.adv_show_fullscreen_adv({
@@ -55,6 +72,15 @@ function on_message(self, message_id, message)
 			close = adv_close,
 			offline = adv_offline,
 			error = adv_error
+		})
+	end
+
+	if message_id == hash("show_rewarded_video") then
+		yagames.adv_show_rewarded_video({
+			open = rewarded_open,
+			rewarded = rewarded_rewarded,
+			close = rewarded_close,
+			error = rewarded_error
 		})
 	end
 end

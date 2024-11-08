@@ -7,4 +7,7 @@ images {
 images {
   image: "/main/assets/sprites/bg.png"
 }
+images {
+  image: "/main/assets/sprites/button_rectangle_depth_gradient1.png"
+}
 extrude_borders: 3
