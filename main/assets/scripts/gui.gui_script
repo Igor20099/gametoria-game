@@ -19,7 +19,8 @@ function init(self)
 	self.answer_3 = gui.get_node('answer_text_3')
 	self.answer_4 = gui.get_node('answer_text_4')
 	self.scores = 0
-	
+	self.count_questions = 0
+	self.attempts = 3
 end
 
 function final(self)
@@ -35,13 +36,17 @@ function update(self, dt)
 end
 
 function on_message(self, message_id, message, sender)
+	if message_id == hash('count_questions') then
+		self.count_questions = message.count_questions
+
+	end
 	if message_id == hash('new_question') then
 		if message.number_question % 10 == 0 then
 			msg.post('proxy:/ya_games#ya_games', "show_fullscreen_adv")
 		end
 		local answers = message.question.options
 		shuffle_table(answers)
-		gui.set_text(gui.get_node('number_question'), 'Вопрос '..message.number_question)
+		gui.set_text(gui.get_node('number_question'), 'Вопрос '..message.number_question..'/'..self.count_questions)
 		gui.set_text(gui.get_node('question'), message.question.question)
 		gui.set_text(gui.get_node('answer_text_1'), answers[1])
 		gui.set_text(gui.get_node('answer_text_2'),  answers[2])
@@ -63,56 +68,122 @@ function on_input(self, action_id, action)
 			local answer = gui.get_text(self.answer_1)
 			if answer == self.correct_answer then
 				print('ok')
-				msg.post('/game#game', 'next_question')
+				gui.set_color(gui.get_node("answer_1"), vmath.vector4(0, 1, 0, 1))
+				msg.post(".", "release_input_focus")
+				timer.delay(0.5, false, function() 
+					gui.set_color(gui.get_node("answer_1"), vmath.vector4(0.302, 0.400, 0.800, 1))
+					msg.post(".", "acquire_input_focus")
+					msg.post('/game#game', 'next_question')
+				end)
 				self.scores = self.scores + 100
+				
 				gui.set_text(gui.get_node('scores'), 'Очки: '..self.scores)
 				sound.play('#accept')
 			else
-				msg.post('/game#end_game', 'show_scores',{scores = self.scores})
-				msg.post('/game#end_game', 'enable')
-				msg.post('#', 'disable')
+				gui.set_color(gui.get_node("answer_1"), vmath.vector4(1, 0, 0, 1))
+				self.attempts = self.attempts -1
+				gui.set_text(gui.get_node('attempts'), 'Попытки: '..self.attempts)
+				gui.set_color(gui.get_node("answer_1"), vmath.vector4(1, 0, 0, 1))
+				msg.post(".", "release_input_focus")
+				timer.delay(0.5, false, function() 
+					gui.set_color(gui.get_node("answer_1"), vmath.vector4(0.302, 0.400, 0.800, 1))
+					msg.post(".", "acquire_input_focus")
+				end)
+				if self.attempts == 0 then
+					msg.post('/game#end_game', 'show_scores',{scores = self.scores})
+					msg.post('/game#end_game', 'enable')
+					msg.post('#', 'disable')
+				end
 				sound.play('#lose')
 			end
 		elseif gui.pick_node(self.answer_2, action.x, action.y) then
 			local answer = gui.get_text(self.answer_2)
 			if answer == self.correct_answer then
 				print('ok')
-				msg.post('/game#game', 'next_question')
+				gui.set_color(gui.get_node("answer_2"), vmath.vector4(0, 1, 0, 1))
+				msg.post(".", "release_input_focus")
+				timer.delay(0.5, false, function() 
+					gui.set_color(gui.get_node("answer_2"), vmath.vector4(0.302, 0.400, 0.800, 1))
+					msg.post(".", "acquire_input_focus")
+					msg.post('/game#game', 'next_question')
+				end)
 				self.scores = self.scores + 100
 				gui.set_text(gui.get_node('scores'), 'Очки: '..self.scores)
 				sound.play('#accept')
 			else
-				msg.post('/game#end_game', 'show_scores',{scores = self.scores})
-				msg.post('/game#end_game', 'enable')
-				msg.post('#', 'disable')
+				self.attempts = self.attempts -1
+				gui.set_text(gui.get_node('attempts'), 'Попытки: '..self.attempts)
+				gui.set_color(gui.get_node("answer_2"), vmath.vector4(1, 0, 0, 1))
+				msg.post(".", "release_input_focus")
+				timer.delay(0.5, false, function() 
+					gui.set_color(gui.get_node("answer_2"), vmath.vector4(0.302, 0.400, 0.800, 1))
+					msg.post(".", "acquire_input_focus")
+				end)
+				if self.attempts == 0 then
+					msg.post('/game#end_game', 'show_scores',{scores = self.scores})
+					msg.post('/game#end_game', 'enable')
+					msg.post('#', 'disable')
+				end
 				sound.play('#lose')
 			end
 		elseif gui.pick_node(self.answer_3, action.x, action.y) then
 			local answer = gui.get_text(self.answer_3)
 			if answer == self.correct_answer then
 				print('ok')
-				msg.post('/game#game', 'next_question')
+				gui.set_color(gui.get_node("answer_3"), vmath.vector4(0, 1, 0, 1))
+				msg.post(".", "release_input_focus")
+				timer.delay(0.5, false, function() 
+					gui.set_color(gui.get_node("answer_3"), vmath.vector4(0.302, 0.400, 0.800, 1))
+					msg.post(".", "acquire_input_focus")
+					msg.post('/game#game', 'next_question')
+				end)
 				self.scores = self.scores + 100
 				gui.set_text(gui.get_node('scores'), 'Очки: '..self.scores)
 				sound.play('#accept')
 			else
-				msg.post('/game#end_game', 'show_scores',{scores = self.scores})
-				msg.post('/game#end_game', 'enable')
-				msg.post('#', 'disable')
+				self.attempts = self.attempts -1
+				gui.set_text(gui.get_node('attempts'), 'Попытки: '..self.attempts)
+				gui.set_color(gui.get_node("answer_3"), vmath.vector4(1, 0, 0, 1))
+				msg.post(".", "release_input_focus")
+				timer.delay(0.5, false, function() 
+					gui.set_color(gui.get_node("answer_3"), vmath.vector4(0.302, 0.400, 0.800, 1))
+					msg.post(".", "acquire_input_focus")
+				end)
+				if self.attempts == 0 then
+					msg.post('/game#end_game', 'show_scores',{scores = self.scores})
+					msg.post('/game#end_game', 'enable')
+					msg.post('#', 'disable')
+				end
 				sound.play('#lose')
 			end
 		elseif gui.pick_node(self.answer_4, action.x, action.y) then
 			local answer = gui.get_text(self.answer_4)
 			if answer == self.correct_answer then
 				print('ok')
-				msg.post('/game#game', 'next_question')
+				gui.set_color(gui.get_node("answer_4"), vmath.vector4(0, 1, 0, 1))
+				msg.post(".", "release_input_focus")
+				timer.delay(0.5, false, function() 
+					gui.set_color(gui.get_node("answer_4"), vmath.vector4(0.302, 0.400, 0.800, 1))
+					msg.post(".", "acquire_input_focus")
+					msg.post('/game#game', 'next_question')
+				end)
 				self.scores = self.scores + 100
 				gui.set_text(gui.get_node('scores'), 'Очки: '..self.scores)
 				sound.play('#accept')
 			else
-				msg.post('/game#end_game', 'show_scores',{scores = self.scores})
-				msg.post('/game#end_game', 'enable')
-				msg.post('#', 'disable')
+				self.attempts = self.attempts -1
+				gui.set_text(gui.get_node('attempts'), 'Попытки: '..self.attempts)
+				gui.set_color(gui.get_node("answer_4"), vmath.vector4(1, 0, 0, 1))
+				msg.post(".", "release_input_focus")
+				timer.delay(0.5, false, function() 
+					gui.set_color(gui.get_node("answer_4"), vmath.vector4(0.302, 0.400, 0.800, 1))
+					msg.post(".", "acquire_input_focus")
+				end)
+				if self.attempts == 0 then
+					msg.post('/game#end_game', 'show_scores',{scores = self.scores})
+					msg.post('/game#end_game', 'enable')
+					msg.post('#', 'disable')
+				end
 				sound.play('#lose')
 			end
 		end

@@ -49,7 +49,6 @@ nodes {
   type: TYPE_BOX
   texture: "atlas/button_rectangle_depth_gradient"
   id: "answer_1"
-  inherit_alpha: true
 }
 nodes {
   size {
@@ -141,7 +140,7 @@ nodes {
   }
   type: TYPE_BOX
   texture: "atlas/button_rectangle_depth_gradient"
-  id: "asnwer_4"
+  id: "answer_4"
   inherit_alpha: true
 }
 nodes {
@@ -153,7 +152,7 @@ nodes {
   text: "\320\236\321\202\320\262\320\265\321\202"
   font: "arial"
   id: "answer_text_4"
-  parent: "asnwer_4"
+  parent: "answer_4"
   inherit_alpha: true
 }
 nodes {
@@ -185,6 +184,21 @@ nodes {
   ""
   font: "arial_title"
   id: "number_question"
+  inherit_alpha: true
+}
+nodes {
+  position {
+    x: 210.0
+    y: 129.0
+  }
+  size {
+    x: 200.0
+    y: 100.0
+  }
+  type: TYPE_TEXT
+  text: "\320\237\320\276\320\277\321\213\321\202\320\272\320\270: 3"
+  font: "Scores"
+  id: "attempts"
   inherit_alpha: true
 }
 material: "/builtins/materials/gui.material"

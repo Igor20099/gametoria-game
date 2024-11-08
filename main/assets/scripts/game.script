@@ -15,10 +15,12 @@ function init(self)
 	local game_questions_json = sys.load_resource("/main/assets/game_answers.json")
 	self.game_questions = json.decode(game_questions_json)
 	shuffle_table(self.game_questions)
+	msg.post('#gui', 'count_questions', {count_questions = #self.game_questions})
 	pprint(self.game_questions)
 	self.current_question = 1
 	msg.post('#gui', 'new_question',{question = self.game_questions[self.current_question], number_question = self.current_question})
 	print(#self.game_questions..' вопросов')
+
 end
 
 
