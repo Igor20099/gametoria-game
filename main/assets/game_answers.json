@@ -1216,4 +1216,209 @@
     "options": ["Overlord", "Pikmin", "Kena: Bridge of Spirits", "Magicka"],
     "correct_answer": "Overlord"
   }
+  ,
+  {
+    "question": "Как называется враждебное существо с взрывной способностью в 'Minecraft'?",
+    "options": ["Крипер", "Зомби", "Паук", "Скелет"],
+    "correct_answer": "Крипер"
+  },
+  {
+    "question": "Как называется главный город в игре 'Assassin's Creed: Unity'?",
+    "options": ["Рим", "Лондон", "Париж", "Венеция"],
+    "correct_answer": "Париж"
+},
+{
+  "question": "Какой классический персонаж Nintendo известен своим зеленым цветом и длинным языком?",
+  "options": ["Йоши", "Луиджи", "Боузер", "Кирби"],
+  "correct_answer": "Йоши"
+},
+{
+  "question": "Как зовут главного героя в игре 'Silent Hill 2'?",
+  "options": ["Джеймс Сандерленд", "Генри Тауншенд", "Хизер Мейсон", "Майкл Кауфман"],
+  "correct_answer": "Джеймс Сандерленд"
+},
+{
+  "question": "Как зовут главного персонажа в игре 'Watch Dogs 2'?",
+  "options": ["Маркус Холлоуэй", "Эйден Пирс", "Далиа Вейл", "Джейкоб Фрай"],
+  "correct_answer": "Маркус Холлоуэй"
+},
+{
+  "question": "Какого бойца из Мортал Комбата озвучивает Эд Бун?",
+  "options": ["Скорпион", "Саб-Зиро", "Рептилия", "Рейн"],
+  "correct_answer": "Скорпион"
+},
+{
+  "question": "Первая игра Хидео Кодзимы?",
+  "options": ["Metal Gear", "Snatcher", "Death Stranding", "Mario"],
+  "correct_answer": "Metal Gear"
+},
+{
+  "question": "Какая часть Dragon Age является культовой?",
+  "options": ["Origins", "2", "Inquisition", "The Veilguard"],
+  "correct_answer": "Origins"
+},
+{
+  "question": "Какая игра первая в серии 'Batman Arkham'?",
+  "options": ["Arkham Asylum", "Arkham City", "Arkham Origins", "Arkham Origins"],
+  "correct_answer": "Arkham Asylum"
+},
+{
+  "question": "Какой жанр у игры 'Lies of P'?",
+  "options": ["Соулслайк", "РПГ", "Шутер", "Роуглайк"],
+  "correct_answer": "Соулслайк"
+},
+{
+  "question": "Как зовут главную героиню в игре 'Stellar Blade'?",
+  "options": ["Ева", "Тахи", "Лили", "2B"],
+  "correct_answer": "Ева"
+},
+{
+  "question": "В каком зомби-шутере на тебя нападает орда зомби?",
+  "options": ["Days Gone", "Resident Evil", "DayZ", "State of Decay"],
+  "correct_answer": "Days Gone"
+},
+{
+  "question": "Какой предмет дает дополнительную жизнь в 'Super Mario Bros.'?",
+  "options": ["Зеленый гриб", "Красный гриб", "Звезда", "Монета"],
+  "correct_answer": "Зеленый гриб"
+},
+{
+  "question": "Как зовут лошадь Ведьмака Геральта в 'The Witcher 3'?",
+  "options": ["Плотва", "Луна", "Вихрь", "Гром"],
+  "correct_answer": "Плотва"
+},
+{
+  "question": "Какое существо преследует игрока в 'Outlast'?",
+  "options": ["Уолридер", "Зомби", "Слендермен", "Призрак"],
+  "correct_answer": "Уолридер"
+},
+{
+  "question": "Какой платформер является эксклюзивом Sony Playstation?",
+  "options": ["Mario", "Sonic", "Astro Bot", "Super Meat Boy"],
+  "correct_answer": "Astro Bot"
+},
+{
+  "question": "В какой части 'Battlefield' впервые появилась реалистичная разрушаемость?",
+  "options": ["Bad Company", "Hardline", "5", "2042"],
+  "correct_answer": "Bad Company"
+},
+{
+  "question": "В каком году вышел 'Counter-Strike: Condition Zero'?",
+  "options": ["2004", "2000", "2007", "2010"],
+  "correct_answer": "2004"
+}
+,
+{
+  "question": "В какой игре про вампиров есть кланы?",
+  "options": ["Vampire: The Masquerade", "Vampyr", "V Rising", "BloodRayne"],
+  "correct_answer": "Vampire: The Masquerade"
+},
+{
+  "question": "Какой эксклюзив Sony Playstation провалился?",
+  "options": ["Concord", "The Last of Us", "Bloodborne", "Returnal"],
+  "correct_answer": "Concord"
+}
+,
+{
+        "question": "Какой монстр преследует игроков в игре 'Amnesia: The Dark Descent'?",
+        "options": ["Тень", "Призрак", "Оборотень", "Зомби"],
+        "correct_answer": "Тень"
+},
+{
+        "question": "В какой игре вы можете управлять волшебником с именем 'Амадей'?",
+        "options": ["Trine", "Diablo III", "Dark Souls", "Divinity: Original Sin"],
+        "correct_answer": "Trine"
+},
+{
+    "question": "Как называется вымышленный город, в котором происходит действие 'Resident Evil 2'?",
+    "options": ["Раккун-Сити", "Сайлент-Хилл", "Камден", "Сентрал-Сити"],
+    "correct_answer": "Раккун-Сити"
+},
+{
+    "question": "В какой игре главным героем является робот по имени 'Райден'?",
+    "options": ["Metal Gear Rising", "Deus Ex", "System Shock", "Portal"],
+    "correct_answer": "Metal Gear Rising"
+},
+{
+    "question": "Какой класс персонажа в 'Diablo II' владеет магией природы?",
+    "options": ["Друид", "Некромант", "Амазонка", "Колдун"],
+    "correct_answer": "Друид"
+},
+{
+    "question": "Какая игра известна своим слоганом 'Prepare to Die'?",
+    "options": ["Dark Souls", "Bloodborne", "Demon's Souls", "Sekiro"],
+    "correct_answer": "Dark Souls"
+},
+{
+    "question": "Как называется оружие, которым пользуется Джеймс Хеллер в игре 'Prototype 2'?",
+    "options": ["Когти", "Ножи", "Гранаты", "Лук"],
+    "correct_answer": "Когти"
+},
+{
+    "question": "Какая игра была одной из первых в жанре 'Survival Horror'?",
+"options": ["Resident Evil", "Silent Hill", "Alone in the Dark", "Clock Tower"],
+    "correct_answer": "Alone in the Dark"
+},
+{
+    "question": "Как называется апокалиптический режим в 'Gears of War'?",
+    "options": ["Орда", "Апокалипсис", "Выживание", "Бесконечность"],
+    "correct_answer": "Орда"
+},
+{
+    "question": "Как называется основной игровой мир в 'World of Warcraft'?",
+    "options": ["Азерот", "Тамриэль", "Нарнил", "Пандора"],
+    "correct_answer": "Азерот"
+},
+{
+    "question": "Как зовут персонажа, который использует 'Гарпун' в игре 'Mortal Kombat'?",
+    "options": ["Скорпион", "Саб-Зиро", "Кейно", "Лю Канг"],
+    "correct_answer": "Скорпион"
+},
+{
+    "question": "Какой символ чаще всего используется для обозначения здоровья в видеоиграх?",
+    "options": ["Красный крест", "Зелёная капля", "Синий круг", "Оранжевый квадрат"],
+    "correct_answer": "Красный крест"
+},
+{
+    "question": "Какой режим игры появился в 'Call of Duty: Warzone'?",
+    "options": ["Королевская битва", "Выживание", "Кооператив", "Захват флага"],
+    "correct_answer": "Королевская битва"
+},
+{
+    "question": "Как зовут персонажа с маской в 'Persona 5'?",
+    "options": ["Джокер", "Граф", "Титан", "Фантом"],
+    "correct_answer": "Джокер"
+},
+{
+    "question": "Какой герой использует боевой молот в игре 'Warcraft III'?",
+    "options": ["Тралл", "Утер", "Тиранда", "Гром"],
+    "correct_answer": "Утер"
+},
+{
+    "question": "Какой персонаж является снайпером в игре 'Overwatch'?",
+    "options": ["Вдова", "Солдат 76", "Мэй", "Гэндзи"],
+    "correct_answer": "Вдова"
+},
+{
+    "question": "Какой персонаж является главным героем игры 'Horizon Zero Dawn'?",
+    "options": ["Элой", "Роберт", "Джек", "Джеймс"],
+    "correct_answer": "Элой"
+}
+,
+{
+    "question": "В какой игре есть Дабстеп пушка?",
+    "options": ["Saints Row 4", "GTA 5", "Just Cause", "Half-Life 2"],
+    "correct_answer": "Saints Row 4"
+},
+{
+    "question": "В какой игре присутствует механика старения персонажа после проигрыша?",
+    "options": ["Sifu", "Absolver", "Rust", "Monster Hunter"],
+    "correct_answer": "Sifu"
+},
+{
+    "question": "В какой игре паркур от первого лица?",
+    "options": ["Mirror's Edge", "Assassin's Creed", "Prototype", "Watch Dogs"],
+    "correct_answer": "Mirror's Edge"
+}
+
 ]
