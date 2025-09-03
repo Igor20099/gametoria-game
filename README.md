@@ -1,13 +1,5 @@
-# Welcome to Defold
+# Игра Геймторина
 
-This project was created from the "empty" project template.
+Игра викторина про видеоигры, где вам нужно правильно выбрать ответ на вопрос. Всего 300 вопросов. Игра сделана на движке **Defold**
 
-The settings in ["game.project"](defold://open?path=/game.project) are all the default. A bootstrap empty ["main.collection"](defold://open?path=/main/main.collection) is included.
-
-Check out [the documentation pages](https://defold.com/learn) for examples, tutorials, manuals and API docs.
-
-If you run into trouble, help is available in [our forum](https://forum.defold.com).
-
-Happy Defolding!
-
----
+Поиграть можно здесь [joymaker123.itch.io/gametorina](https://joymaker123.itch.io/gametorina)
